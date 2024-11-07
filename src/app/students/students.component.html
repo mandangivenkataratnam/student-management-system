@@ -1,0 +1,13 @@
+<div class="container pt-3">
+    <div class="row">
+        <h1>Our Students....</h1>
+        <div class="col-md-12">
+            <table><tr><th>studentId</th><th>studentName</th><th>studentClass</th><th>studentPhone</th><th>studentMarks</th></tr>
+            <tr *ngFor="let s of students">
+                <td>{{s.studentId}}</td><td>{{s.studentName}}</td><td>{{s.studentClass}}</td><td>{{s.studentPhone}}</td><td>{{s.studentMarks}}</td>
+            </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
